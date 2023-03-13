@@ -1,0 +1,70 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+.title-input-button{
+margin: 5px;
+}
+
+.title-up{
+color: rgb(125, 122, 122);
+  
+}
+.movie-Input{
+width: 100%;
+border-radius: 10px;
+height: 40px;
+
+}
+.movie-Input::placeholder{
+padding: 10px;
+color: rgb(125, 122, 122) ;
+font-weight: bold;
+
+}
+.index-form{
+  display: flex;
+}
+.movie-Input-Button{
+  border-radius: 5px;
+  background-color:dodgerblue;
+  color: aliceblue;
+}
+.movieShow{ 
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows:repeat(2,1fr);
+grid-gap: 40px;
+margin-left: 200px;
+line-height: 30px;
+}
+.toggle-div{
+margin-top: 40px;
+color:  rgb(125, 122, 122);
+font-weight: bold;
+
+}
+.on{
+  background-color:chocolate ;
+  min-Height:100vh;
+}
+.of{
+  background-color:brown;
+  min-Height:100vh; 
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
